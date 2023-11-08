@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #srchbar {
+        width: 50%;
+        margin-left: 22%;
+        margin-right: 20%;
+        padding: 15px;
+        border-radius: 30px;
+        margin-top: 1%;
+        background-image: url(search_FILL0_wght400_GRAD0_opsz24.svg);
+        background-repeat: no-repeat;
+        background-position: 13px;
+        background-size: 22px;
+    }
+
+    .main {
+
+        width: 100%;
+        background-color: white;
+    }
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .header {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    .lgf {
+        height: 300px;
+        width: 300px;
+        background-color: azure;
+        text-align: center;
+        margin-left: 22%;
+        margin-right: 20%;
+        color: white;
+        margin-top: 3%;
+        margin-left: 28%;
+        font-size: 20px;
+
+
+    }
+
+    #inpt {
+        width: 200px;
+        height: 20px;
+
+    }
+
+    #pswd {
+        width: 200px;
+        height: 20px;
+    }
+
+    #foot {
+        text-align: center;
+    }
+
+    .rows {
+        background-color: black;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .rows ul li {
+        float: left;
+        height: 50px;
+        width: 200px;
+        color: white;
+        line-height: 50px;
+        border: 1px solid white;
+        ;
+    }
+
+
+    .rows ul li a {
+        display: block;
+        text-decoration: none;
+    }
+
+
+    .rows ul li:hover {
+        background-color: green;
+    }
+
+    .rows ul li ul li {
+        display: none;
+
+    }
+
+    .rows ul li:hover ul li {
+        color: black;
+        display: block;
+        scale: 1;
+    }
+
+    .submenu {
+        text-align: center;
+    }
+
+    .clss {
+        background-color: black;
+    }
+</style>
+
+<body style="width: 100%; background-color: grey;">
+    <div class="main">
+        <header class="header">
+            <p style="font-size: 40px;">𝕯𝖎𝖊𝖙𝕯𝖊𝖘𝖎𝖌𝖓𝕲𝖚𝖎𝖉𝖊</p>
+        </header>
+        <div class="rows">
+            <ul type="none">
+                <li>Diet Plan
+                    <ul type="none" class="submenu">
+                        <li class="clss" style="color: white;">Calorie Tracker</li>
+                        <li class="clss" style="color: white;">Meals</li>
+                        <li class="clss" style="color: white;">Macros Calculator</li>
+                        <li class="clss" style="color: white;">Body Metrics</li>
+                    </ul>
+                </li>
+                <li>Personal Coach</li>
+                <li>Enquiry</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+
+        <div>
+            <form>
+                <input type="text" id="srchbar" placeholder="        Search Here">
+            </form>
+        </div>
+        <div class="lgf" style="width: 600px; height: 350px; background-color: black;">
+            <form>
+                <p style="padding-top: 20px;">Login Form</p> <br><br>
+                Username: <br><br>
+                <input type="text" id="inpt"><br><br>
+                Password: <br><br>
+                <input type="text" id="pswd"> <br><br><br>
+                <input type="submit" value="  Submit  ">
+            </form>
+        </div>
+        <footer id="foot"
+            style="background-color: rgb(15, 14, 13); color: white; height: 50px; margin-top: 7%; font-size:30px;">
+            Address | AboutUs | Contact | Email | Help
+        </footer>
+    </div>
+</body>
+
+</html>
